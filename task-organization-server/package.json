@@ -1,0 +1,35 @@
+{
+  "name": "task-organization-server",
+  "version": "1.0.0",
+  "description": "task organization app server powered by Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+    "start": "/usr/local/n/versions/node/10.0.0/bin/node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minidonut/task-organization-server.git"
+  },
+  "author": "Saehun Chung <saehun.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minidonut/task-organization-server/issues"
+  },
+  "homepage": "https://github.com/minidonut/task-organization-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "ramda": "^0.25.0",
+    "sha.js": "^2.4.11"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "node-mocks-http": "^1.5.8",
+    "responselike": "^1.0.2"
+  }
+}
